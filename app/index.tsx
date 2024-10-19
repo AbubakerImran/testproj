@@ -1,24 +1,15 @@
 import { Text, View } from "react-native";
 
-type familymember = {
-  name: string;
-};
-
-const Family = (props: familymember) => {
+export default function Index() {
   return (
-    <View>
-      <Text>Hello! I am {props.name}</Text>
+    <View
+      style={{
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <Text>My name is Abubaker Imran.</Text>
     </View>
   );
-};
-
-const member = () => {
-  return (
-    <View>
-      <Family name="Imran" />
-      <Family name="Abubaker" />
-    </View>
-  );
-};
-
-export default member;
+}
