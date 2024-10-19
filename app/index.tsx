@@ -12,6 +12,7 @@ export default function Index() {
     >
       <Text>My name is Abubaker Imran.</Text>
       <Text>My name is RJ.</Text>
+      <Text>My name is Ghani.</Text>
       <View>
         <Button mode="outlined">sahvdahs</Button>
       </View>
